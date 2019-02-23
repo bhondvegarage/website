@@ -44,19 +44,38 @@
     line-height: 1rem;
     font-size: 1.8rem;
     padding: 0.5rem;
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.5);
     border-radius: 0.4rem;
     max-width: 50%;
+    text-align: center;
   }
 
-  .header h1>span {
-    font-size: 1.2rem;
+  h1.brand img {
+    text-decoration: none;
+    border: 0 none;
+    width: 160px;
+  }
+
+  h1.brand span {
+    display: block;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
 
   .header .usp {
-    color: darkred;
+    display: inline-block;
+    color: black;
+    line-height: 1.67rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
     width: 50%;
     font-weight: bold;
+    margin-left: 1.2rem;
+  }
+
+  .header .usp span {
+    background-color: white;
   }
 
   .services ul {
@@ -101,6 +120,7 @@
 
   footer.mobile a {
     color: white;
+    display: inline-block;
     padding: 0.5rem;
     text-decoration: none;
     font-weight: bold;
@@ -119,7 +139,7 @@
     height: 100%;
   }
 
-  footer.mobile a.message img {
+  footer.mobile a img {
     width: 45px;
     height: 45px;
     vertical-align: middle;
