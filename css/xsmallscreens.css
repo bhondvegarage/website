@@ -59,8 +59,14 @@
   h1.brand span {
     display: block;
     font-size: 0.5rem;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
+  }
+
+  h1.brand div.marathi {
+    font-size: 0.8rem;
+    font-weight: bold;
   }
 
   .header .usp {
