@@ -19,3 +19,36 @@ body {
 .services li a:hover {
   transform: rotate3d(1, -1, -0.3, 11deg) scale(1.2);
 }
+
+div.separator {
+  position: relative;
+}
+
+div.separator,
+div.separator:before,
+div.separator:after {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  background-color: rgba(214, 42, 42, 0.7);
+  border-radius: 100%;
+}
+
+div.separator:before, div.separator:after {
+  transform: scale(0.67);
+  position: absolute;
+  top: 0;
+}
+
+div.separator:before {
+  left: -4rem;
+}
+
+div.separator:after {
+  right: -4rem;
+}
+
+.header .separator {
+  margin-left: 25%;
+}
